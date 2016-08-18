@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @constituent.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @constituent.last_name %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @constituent.title %>
+</p>
+
+<p>
+  <strong>District:</strong>
+  <%= @constituent.district %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @constituent.email %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @constituent.phone_number %>
+</p>
+
+<%= link_to 'Edit', edit_constituent_path(@constituent) %> |
+<%= link_to 'Back', constituents_path %>
